@@ -1,0 +1,1371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SoccerManagerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SoccerManagerAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.m */; };
+		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
+		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		576B62F610B20B5900F7227C /* Agger-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 576B62EB10B20B5900F7227C /* Agger-1.png */; };
+		576B62F710B20B5900F7227C /* Aquilani-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 576B62EC10B20B5900F7227C /* Aquilani-1.png */; };
+		576B62F810B20B5900F7227C /* Benayoun.png in Resources */ = {isa = PBXBuildFile; fileRef = 576B62ED10B20B5900F7227C /* Benayoun.png */; };
+		576B62F910B20B5900F7227C /* Carragher-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 576B62EE10B20B5900F7227C /* Carragher-1.png */; };
+		576B62FA10B20B5900F7227C /* Gerrard.png in Resources */ = {isa = PBXBuildFile; fileRef = 576B62EF10B20B5900F7227C /* Gerrard.png */; };
+		576B62FB10B20B5900F7227C /* Insua-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 576B62F010B20B5900F7227C /* Insua-1.png */; };
+		576B62FC10B20B5900F7227C /* Johnson-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 576B62F110B20B5900F7227C /* Johnson-1.png */; };
+		576B62FE10B20B5900F7227C /* Mascherano-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 576B62F310B20B5900F7227C /* Mascherano-1.png */; };
+		576B62FF10B20B5900F7227C /* Reina-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 576B62F410B20B5900F7227C /* Reina-1.png */; };
+		576B630010B20B5900F7227C /* Torres.png in Resources */ = {isa = PBXBuildFile; fileRef = 576B62F510B20B5900F7227C /* Torres.png */; };
+		576B630210B20B9100F7227C /* Kuyt-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 576B630110B20B9100F7227C /* Kuyt-1.png */; };
+		578A5B9B10ABC01E0022DC43 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B6B10ABC01E0022DC43 /* Default.png */; };
+		578A5B9C10ABC01E0022DC43 /* ghost.gif in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B6C10ABC01E0022DC43 /* ghost.gif */; };
+		578A5B9D10ABC01E0022DC43 /* monk.gif in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B6D10ABC01E0022DC43 /* monk.gif */; };
+		578A5B9E10ABC01E0022DC43 /* joypad.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B6E10ABC01E0022DC43 /* joypad.png */; };
+		578A5B9F10ABC01E0022DC43 /* knight.gif in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B6F10ABC01E0022DC43 /* knight.gif */; };
+		578A5BA010ABC01E0022DC43 /* knightdown.gif in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B7010ABC01E0022DC43 /* knightdown.gif */; };
+		578A5BA110ABC01E0022DC43 /* knightup.gif in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B7110ABC01E0022DC43 /* knightup.gif */; };
+		578A5BA210ABC01E0022DC43 /* house.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B7210ABC01E0022DC43 /* house.tmx */; };
+		578A5BA310ABC01E0022DC43 /* house1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B7310ABC01E0022DC43 /* house1.tmx */; };
+		578A5BA410ABC01E0022DC43 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B7410ABC01E0022DC43 /* pause.png */; };
+		578A5BA510ABC01E0022DC43 /* paused.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B7510ABC01E0022DC43 /* paused.png */; };
+		578A5BA610ABC01E0022DC43 /* TchCliff.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B7610ABC01E0022DC43 /* TchCliff.png */; };
+		578A5BA710ABC01E0022DC43 /* TechLava.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B7710ABC01E0022DC43 /* TechLava.png */; };
+		578A5BA810ABC01E0022DC43 /* TechMsc1.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B7810ABC01E0022DC43 /* TechMsc1.png */; };
+		578A5BA910ABC01E0022DC43 /* TechRoad.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B7910ABC01E0022DC43 /* TechRoad.png */; };
+		578A5BAA10ABC01E0022DC43 /* TechWater.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B7A10ABC01E0022DC43 /* TechWater.png */; };
+		578A5BAB10ABC01E0022DC43 /* techmap.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B7B10ABC01E0022DC43 /* techmap.tmx */; };
+		578A5BAC10ABC01E0022DC43 /* laser.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B7C10ABC01E0022DC43 /* laser.png */; };
+		578A5BAD10ABC01E0022DC43 /* fire-button-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B7D10ABC01E0022DC43 /* fire-button-1.png */; };
+		578A5BAE10ABC01E0022DC43 /* quitgame.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B7E10ABC01E0022DC43 /* quitgame.png */; };
+		578A5BAF10ABC01E0022DC43 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B7F10ABC01E0022DC43 /* settings.png */; };
+		578A5BB010ABC01E0022DC43 /* highscores.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B8010ABC01E0022DC43 /* highscores.png */; };
+		578A5BB110ABC01E0022DC43 /* newgame.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B8110ABC01E0022DC43 /* newgame.png */; };
+		578A5BB410ABC01E0022DC43 /* texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B8410ABC01E0022DC43 /* texture.png */; };
+		578A5BB510ABC01E0022DC43 /* tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B8510ABC01E0022DC43 /* tiles.png */; };
+		578A5BB610ABC01E0022DC43 /* spritesheet16.gif in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B8610ABC01E0022DC43 /* spritesheet16.gif */; };
+		578A5BB710ABC01E0022DC43 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B8710ABC01E0022DC43 /* player.png */; };
+		578A5BB810ABC01E0022DC43 /* explosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B8910ABC01E0022DC43 /* explosion.caf */; };
+		578A5BB910ABC01E0022DC43 /* mylaser.wav in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B8A10ABC01E0022DC43 /* mylaser.wav */; };
+		578A5BBA10ABC01E0022DC43 /* laser.caf in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B8B10ABC01E0022DC43 /* laser.caf */; };
+		578A5BBB10ABC01E0022DC43 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B8C10ABC01E0022DC43 /* music.mp3 */; };
+		578A5BBC10ABC01E0022DC43 /* photon.caf in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B8D10ABC01E0022DC43 /* photon.caf */; };
+		578A5BBD10ABC01E0022DC43 /* Monospaced24.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B8F10ABC01E0022DC43 /* Monospaced24.fnt */; };
+		578A5BBE10ABC01E0022DC43 /* Monospaced24.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B9010ABC01E0022DC43 /* Monospaced24.png */; };
+		578A5BBF10ABC01E0022DC43 /* GillSans16.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B9110ABC01E0022DC43 /* GillSans16.fnt */; };
+		578A5BC010ABC01E0022DC43 /* GillSans16.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B9210ABC01E0022DC43 /* GillSans16.png */; };
+		578A5BC110ABC01E0022DC43 /* test.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B9310ABC01E0022DC43 /* test.fnt */; };
+		578A5BC210ABC01E0022DC43 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B9410ABC01E0022DC43 /* test.png */; };
+		578A5BC310ABC01E0022DC43 /* kerning.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B9510ABC01E0022DC43 /* kerning.fnt */; };
+		578A5BC410ABC01E0022DC43 /* kerning.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B9610ABC01E0022DC43 /* kerning.png */; };
+		578A5BC510ABC01E0022DC43 /* font1.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B9710ABC01E0022DC43 /* font1.fnt */; };
+		578A5BC610ABC01E0022DC43 /* font1.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B9810ABC01E0022DC43 /* font1.png */; };
+		578A5BC710ABC01E0022DC43 /* test1.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B9910ABC01E0022DC43 /* test1.fnt */; };
+		578A5BC810ABC01E0022DC43 /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = 578A5B9A10ABC01E0022DC43 /* test1.png */; };
+		578E6BB010B2FB6600075908 /* ViewTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 578E6BAF10B2FB6600075908 /* ViewTeam.m */; };
+		578E6C1910B307D500075908 /* What Gods Are These.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578E6C1410B307D500075908 /* What Gods Are These.mp3 */; };
+		578E6C6E10B30CB000075908 /* ToBeImplemented.m in Sources */ = {isa = PBXBuildFile; fileRef = 578E6C6D10B30CB000075908 /* ToBeImplemented.m */; };
+		579AD2DA10ADE244000864C1 /* SPLScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 579AD2D910ADE244000864C1 /* SPLScene.m */; };
+		579AD2F110ADECDF000864C1 /* Almeria FC.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2DD10ADECDF000864C1 /* Almeria FC.png */; };
+		579AD2F210ADECDF000864C1 /* Athletic Bilbao.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2DE10ADECDF000864C1 /* Athletic Bilbao.png */; };
+		579AD2F310ADECDF000864C1 /* Atlético Madrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2DF10ADECDF000864C1 /* Atlético Madrid.png */; };
+		579AD2F410ADECDF000864C1 /* Barcelona.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2E010ADECDF000864C1 /* Barcelona.png */; };
+		579AD2F510ADECDF000864C1 /* Deportivo La Coruña.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2E110ADECDF000864C1 /* Deportivo La Coruña.png */; };
+		579AD2F610ADECDF000864C1 /* Espanyol.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2E210ADECDF000864C1 /* Espanyol.png */; };
+		579AD2F710ADECDF000864C1 /* Getafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2E310ADECDF000864C1 /* Getafe.png */; };
+		579AD2F810ADECDF000864C1 /* Malaga.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2E410ADECDF000864C1 /* Malaga.png */; };
+		579AD2F910ADECDF000864C1 /* Mallorca.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2E510ADECDF000864C1 /* Mallorca.png */; };
+		579AD2FA10ADECDF000864C1 /* Osasuna.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2E610ADECDF000864C1 /* Osasuna.png */; };
+		579AD2FB10ADECDF000864C1 /* Racing Santander.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2E710ADECDF000864C1 /* Racing Santander.png */; };
+		579AD2FC10ADECDF000864C1 /* Real Madrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2E810ADECDF000864C1 /* Real Madrid.png */; };
+		579AD2FD10ADECDF000864C1 /* Real Zaragoza.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2E910ADECDF000864C1 /* Real Zaragoza.png */; };
+		579AD2FE10ADECDF000864C1 /* Sevilla FC.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2EA10ADECDF000864C1 /* Sevilla FC.png */; };
+		579AD2FF10ADECDF000864C1 /* Sporting Gijon.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2EB10ADECDF000864C1 /* Sporting Gijon.png */; };
+		579AD30010ADECDF000864C1 /* Tenerife.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2EC10ADECDF000864C1 /* Tenerife.png */; };
+		579AD30110ADECDF000864C1 /* Valencia.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2ED10ADECDF000864C1 /* Valencia.png */; };
+		579AD30210ADECDF000864C1 /* Valladolid.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2EE10ADECDF000864C1 /* Valladolid.png */; };
+		579AD30310ADECDF000864C1 /* Villarreal.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2EF10ADECDF000864C1 /* Villarreal.png */; };
+		579AD30410ADECDF000864C1 /* Xerez.png in Resources */ = {isa = PBXBuildFile; fileRef = 579AD2F010ADECDF000864C1 /* Xerez.png */; };
+		579DE26D10AE3B1F00FDB543 /* SetupTeamScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 579DE26C10AE3B1F00FDB543 /* SetupTeamScene.m */; };
+		579DE28510AE403F00FDB543 /* SoccerField.png in Resources */ = {isa = PBXBuildFile; fileRef = 579DE28410AE403F00FDB543 /* SoccerField.png */; };
+		579DE29C10AE459700FDB543 /* Field.png in Resources */ = {isa = PBXBuildFile; fileRef = 579DE29B10AE459700FDB543 /* Field.png */; };
+		579FFB9010AE518C001E7DF5 /* Player1.png in Resources */ = {isa = PBXBuildFile; fileRef = 579FFB8F10AE518C001E7DF5 /* Player1.png */; };
+		57A2B4A910AA526700DC6B40 /* SettingsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B4A810AA526700DC6B40 /* SettingsScene.m */; };
+		57A2B4AD10AA52AA00DC6B40 /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B4AC10AA52AA00DC6B40 /* MenuScene.m */; };
+		57A2B4B110AA52EF00DC6B40 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B4B010AA52EF00DC6B40 /* GameScene.m */; };
+		57A2B4B510AA531800DC6B40 /* AbstractScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B4B410AA531800DC6B40 /* AbstractScene.m */; };
+		57A2B4B910AA537600DC6B40 /* EventTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B4B810AA537600DC6B40 /* EventTimer.m */; };
+		57A2B4FD10AA550800DC6B40 /* AbstractControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B4F910AA550800DC6B40 /* AbstractControl.m */; };
+		57A2B4FE10AA550800DC6B40 /* MenuControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B4FC10AA550800DC6B40 /* MenuControl.m */; };
+		57A2B50B10AA554F00DC6B40 /* AbstractEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B50110AA554F00DC6B40 /* AbstractEntity.m */; };
+		57A2B50C10AA554F00DC6B40 /* AlienTailWagger.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B50410AA554F00DC6B40 /* AlienTailWagger.m */; };
+		57A2B50D10AA554F00DC6B40 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B50710AA554F00DC6B40 /* Player.m */; };
+		57A2B50E10AA554F00DC6B40 /* Ghost.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B50A10AA554F00DC6B40 /* Ghost.m */; };
+		57A2B52F10AA55D600DC6B40 /* Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B51110AA55D600DC6B40 /* Animation.m */; };
+		57A2B53010AA55D600DC6B40 /* Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B51310AA55D600DC6B40 /* Frame.m */; };
+		57A2B53110AA55D600DC6B40 /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B51610AA55D600DC6B40 /* Texture2D.m */; };
+		57A2B53210AA55D600DC6B40 /* BezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B51910AA55D600DC6B40 /* BezierCurve.m */; };
+		57A2B53310AA55D600DC6B40 /* ParticleEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B51C10AA55D600DC6B40 /* ParticleEmitter.m */; };
+		57A2B53410AA55D600DC6B40 /* Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B51F10AA55D600DC6B40 /* Layer.m */; };
+		57A2B53510AA55D600DC6B40 /* TileSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B52110AA55D600DC6B40 /* TileSet.m */; };
+		57A2B53710AA55D600DC6B40 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B52610AA55D600DC6B40 /* Image.m */; };
+		57A2B53810AA55D600DC6B40 /* SpriteSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B52910AA55D600DC6B40 /* SpriteSheet.m */; };
+		57A2B53910AA55D600DC6B40 /* AngelCodeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B52C10AA55D600DC6B40 /* AngelCodeFont.m */; };
+		57A2B53A10AA55D600DC6B40 /* CharDef.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B52E10AA55D600DC6B40 /* CharDef.m */; };
+		57A2B54A10AA56F900DC6B40 /* MyOpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B53E10AA56F900DC6B40 /* MyOpenALSupport.c */; };
+		57A2B54B10AA56F900DC6B40 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B54110AA56F900DC6B40 /* SoundManager.m */; };
+		57A2B54C10AA56F900DC6B40 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B54610AA56F900DC6B40 /* Director.m */; };
+		57A2B54D10AA56F900DC6B40 /* ResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B54910AA56F900DC6B40 /* ResourceManager.m */; };
+		57A2B55B10AA575500DC6B40 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B55110AA575500DC6B40 /* DDXMLDocument.m */; };
+		57A2B55C10AA575500DC6B40 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B55310AA575500DC6B40 /* DDXMLElement.m */; };
+		57A2B55D10AA575500DC6B40 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B55510AA575500DC6B40 /* DDXMLElementAdditions.m */; };
+		57A2B55E10AA575500DC6B40 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B55710AA575500DC6B40 /* DDXMLNode.m */; };
+		57A2B55F10AA575500DC6B40 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B55A10AA575500DC6B40 /* NSStringAdditions.m */; };
+		57A2B56410AA578800DC6B40 /* Transforms.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B56310AA578800DC6B40 /* Transforms.m */; };
+		57A2B56810AA57B700DC6B40 /* AccelerometerSimulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2B56710AA57B700DC6B40 /* AccelerometerSimulation.m */; };
+		57A2B56A10AA57EC00DC6B40 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A2B56910AA57EC00DC6B40 /* AVFoundation.framework */; };
+		57A2B56C10AA57EC00DC6B40 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A2B56B10AA57EC00DC6B40 /* CoreAudio.framework */; };
+		57A2B56E10AA57EC00DC6B40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A2B56D10AA57EC00DC6B40 /* CoreGraphics.framework */; };
+		57A2B57010AA57EC00DC6B40 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A2B56F10AA57EC00DC6B40 /* OpenAL.framework */; };
+		57A2B6D010AA5B4000DC6B40 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A2B6CF10AA5B4000DC6B40 /* AudioToolbox.framework */; };
+		57B4921F10AB4182003C3B5E /* SoccerManagerGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B4921E10AB4182003C3B5E /* SoccerManagerGameController.m */; };
+		57B4925910AB43CE003C3B5E /* TiledMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B4925810AB43CE003C3B5E /* TiledMap.m */; };
+		57C62E8010AE0438009A7353 /* Tottenham.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C62E7F10AE0438009A7353 /* Tottenham.png */; };
+		57C62EB210AE1587009A7353 /* BackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C62EB110AE1587009A7353 /* BackArrow.png */; };
+		57C62ED810AE1AFC009A7353 /* TeamScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C62ED710AE1AFC009A7353 /* TeamScene.m */; };
+		57C62F3810AE2ED4009A7353 /* Liverpool-Big.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C62F3710AE2ED4009A7353 /* Liverpool-Big.png */; };
+		57C62F6210AE3470009A7353 /* Selection.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C62F6110AE3470009A7353 /* Selection.png */; };
+		57C62F6C10AE35B3009A7353 /* Selection-test.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C62F6B10AE35B3009A7353 /* Selection-test.png */; };
+		57CA5EB210B263E400C6DF0A /* GameBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CA5EB110B263E400C6DF0A /* GameBackground.png */; };
+		57CCA95010AC7F64008AAA3E /* epl.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CCA94F10AC7F64008AAA3E /* epl.png */; };
+		57CE4AA010AC820A00EF01B2 /* spl.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CE4A9F10AC820A00EF01B2 /* spl.png */; };
+		57CE4B6410AC890900EF01B2 /* soccer ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CE4B6310AC890900EF01B2 /* soccer ball.jpg */; };
+		57CE4BFD10AC913F00EF01B2 /* manager.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CE4BFC10AC913F00EF01B2 /* manager.jpg */; };
+		57CE4C2510AC92C200EF01B2 /* EPLScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CE4C2410AC92C200EF01B2 /* EPLScene.m */; };
+		57D2107810AD157900320B9A /* Arsenal.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D2106910AD157900320B9A /* Arsenal.png */; };
+		57D2107910AD157900320B9A /* Aston Villa.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D2106A10AD157900320B9A /* Aston Villa.png */; };
+		57D2107A10AD157900320B9A /* Blackburn Rovers.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D2106B10AD157900320B9A /* Blackburn Rovers.png */; };
+		57D2107B10AD157900320B9A /* Bolton.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D2106C10AD157900320B9A /* Bolton.png */; };
+		57D2107C10AD157900320B9A /* Chelsea.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D2106D10AD157900320B9A /* Chelsea.png */; };
+		57D2107D10AD157900320B9A /* Everton.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D2106E10AD157900320B9A /* Everton.png */; };
+		57D2107E10AD157900320B9A /* Fulham.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D2106F10AD157900320B9A /* Fulham.png */; };
+		57D2107F10AD157900320B9A /* Hull City.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D2107010AD157900320B9A /* Hull City.png */; };
+		57D2108010AD157900320B9A /* Liverpool.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D2107110AD157900320B9A /* Liverpool.png */; };
+		57D2108110AD157900320B9A /* Manchester City.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D2107210AD157900320B9A /* Manchester City.png */; };
+		57D2108210AD157900320B9A /* Manchester United.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D2107310AD157900320B9A /* Manchester United.png */; };
+		57D2108410AD157900320B9A /* Portsmouth.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D2107510AD157900320B9A /* Portsmouth.png */; };
+		57D2108610AD157900320B9A /* West Ham.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D2107710AD157900320B9A /* West Ham.png */; };
+		57DFCCD410AD20460036CE79 /* Birmingham City.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCCCE10AD20460036CE79 /* Birmingham City.png */; };
+		57DFCCD510AD20460036CE79 /* Burnley.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCCCF10AD20460036CE79 /* Burnley.png */; };
+		57DFCCD610AD20460036CE79 /* Stoke City.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCCD010AD20460036CE79 /* Stoke City.png */; };
+		57DFCCD710AD20460036CE79 /* Sunderland.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCCD110AD20460036CE79 /* Sunderland.png */; };
+		57DFCCD810AD20460036CE79 /* Wigan.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCCD210AD20460036CE79 /* Wigan.png */; };
+		57DFCCD910AD20460036CE79 /* Wolverhampton.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCCD310AD20460036CE79 /* Wolverhampton.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SoccerManagerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoccerManagerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SoccerManagerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoccerManagerAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SoccerManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoccerManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28FD14FC0DC6FC130079059D /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		28FD14FD0DC6FC130079059D /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SoccerManager_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoccerManager_Prefix.pch; sourceTree = "<group>"; };
+		576B62EB10B20B5900F7227C /* Agger-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Agger-1.png"; sourceTree = "<group>"; };
+		576B62EC10B20B5900F7227C /* Aquilani-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aquilani-1.png"; sourceTree = "<group>"; };
+		576B62ED10B20B5900F7227C /* Benayoun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Benayoun.png; sourceTree = "<group>"; };
+		576B62EE10B20B5900F7227C /* Carragher-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Carragher-1.png"; sourceTree = "<group>"; };
+		576B62EF10B20B5900F7227C /* Gerrard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gerrard.png; sourceTree = "<group>"; };
+		576B62F010B20B5900F7227C /* Insua-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Insua-1.png"; sourceTree = "<group>"; };
+		576B62F110B20B5900F7227C /* Johnson-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Johnson-1.png"; sourceTree = "<group>"; };
+		576B62F310B20B5900F7227C /* Mascherano-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mascherano-1.png"; sourceTree = "<group>"; };
+		576B62F410B20B5900F7227C /* Reina-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reina-1.png"; sourceTree = "<group>"; };
+		576B62F510B20B5900F7227C /* Torres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Torres.png; sourceTree = "<group>"; };
+		576B630110B20B9100F7227C /* Kuyt-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kuyt-1.png"; sourceTree = "<group>"; };
+		578A5B3010ABB3270022DC43 /* TiledMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledMap.h; sourceTree = "<group>"; };
+		578A5B6B10ABC01E0022DC43 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		578A5B6C10ABC01E0022DC43 /* ghost.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ghost.gif; sourceTree = "<group>"; };
+		578A5B6D10ABC01E0022DC43 /* monk.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = monk.gif; sourceTree = "<group>"; };
+		578A5B6E10ABC01E0022DC43 /* joypad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joypad.png; sourceTree = "<group>"; };
+		578A5B6F10ABC01E0022DC43 /* knight.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = knight.gif; sourceTree = "<group>"; };
+		578A5B7010ABC01E0022DC43 /* knightdown.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = knightdown.gif; sourceTree = "<group>"; };
+		578A5B7110ABC01E0022DC43 /* knightup.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = knightup.gif; sourceTree = "<group>"; };
+		578A5B7210ABC01E0022DC43 /* house.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = house.tmx; sourceTree = "<group>"; };
+		578A5B7310ABC01E0022DC43 /* house1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = house1.tmx; sourceTree = "<group>"; };
+		578A5B7410ABC01E0022DC43 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		578A5B7510ABC01E0022DC43 /* paused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paused.png; sourceTree = "<group>"; };
+		578A5B7610ABC01E0022DC43 /* TchCliff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TchCliff.png; sourceTree = "<group>"; };
+		578A5B7710ABC01E0022DC43 /* TechLava.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TechLava.png; sourceTree = "<group>"; };
+		578A5B7810ABC01E0022DC43 /* TechMsc1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TechMsc1.png; sourceTree = "<group>"; };
+		578A5B7910ABC01E0022DC43 /* TechRoad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TechRoad.png; sourceTree = "<group>"; };
+		578A5B7A10ABC01E0022DC43 /* TechWater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TechWater.png; sourceTree = "<group>"; };
+		578A5B7B10ABC01E0022DC43 /* techmap.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = techmap.tmx; sourceTree = "<group>"; };
+		578A5B7C10ABC01E0022DC43 /* laser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laser.png; sourceTree = "<group>"; };
+		578A5B7D10ABC01E0022DC43 /* fire-button-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fire-button-1.png"; sourceTree = "<group>"; };
+		578A5B7E10ABC01E0022DC43 /* quitgame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quitgame.png; sourceTree = "<group>"; };
+		578A5B7F10ABC01E0022DC43 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		578A5B8010ABC01E0022DC43 /* highscores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highscores.png; sourceTree = "<group>"; };
+		578A5B8110ABC01E0022DC43 /* newgame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newgame.png; sourceTree = "<group>"; };
+		578A5B8410ABC01E0022DC43 /* texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture.png; sourceTree = "<group>"; };
+		578A5B8510ABC01E0022DC43 /* tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiles.png; sourceTree = "<group>"; };
+		578A5B8610ABC01E0022DC43 /* spritesheet16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spritesheet16.gif; sourceTree = "<group>"; };
+		578A5B8710ABC01E0022DC43 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		578A5B8910ABC01E0022DC43 /* explosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = explosion.caf; sourceTree = "<group>"; };
+		578A5B8A10ABC01E0022DC43 /* mylaser.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mylaser.wav; sourceTree = "<group>"; };
+		578A5B8B10ABC01E0022DC43 /* laser.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = laser.caf; sourceTree = "<group>"; };
+		578A5B8C10ABC01E0022DC43 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		578A5B8D10ABC01E0022DC43 /* photon.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = photon.caf; sourceTree = "<group>"; };
+		578A5B8F10ABC01E0022DC43 /* Monospaced24.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Monospaced24.fnt; sourceTree = "<group>"; };
+		578A5B9010ABC01E0022DC43 /* Monospaced24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Monospaced24.png; sourceTree = "<group>"; };
+		578A5B9110ABC01E0022DC43 /* GillSans16.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GillSans16.fnt; sourceTree = "<group>"; };
+		578A5B9210ABC01E0022DC43 /* GillSans16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GillSans16.png; sourceTree = "<group>"; };
+		578A5B9310ABC01E0022DC43 /* test.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.fnt; sourceTree = "<group>"; };
+		578A5B9410ABC01E0022DC43 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		578A5B9510ABC01E0022DC43 /* kerning.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kerning.fnt; sourceTree = "<group>"; };
+		578A5B9610ABC01E0022DC43 /* kerning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kerning.png; sourceTree = "<group>"; };
+		578A5B9710ABC01E0022DC43 /* font1.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = font1.fnt; sourceTree = "<group>"; };
+		578A5B9810ABC01E0022DC43 /* font1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font1.png; sourceTree = "<group>"; };
+		578A5B9910ABC01E0022DC43 /* test1.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1.fnt; sourceTree = "<group>"; };
+		578A5B9A10ABC01E0022DC43 /* test1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test1.png; sourceTree = "<group>"; };
+		578E6BAE10B2FB6600075908 /* ViewTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTeam.h; sourceTree = "<group>"; };
+		578E6BAF10B2FB6600075908 /* ViewTeam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTeam.m; sourceTree = "<group>"; };
+		578E6C1410B307D500075908 /* What Gods Are These.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "What Gods Are These.mp3"; sourceTree = "<group>"; };
+		578E6C6C10B30CB000075908 /* ToBeImplemented.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToBeImplemented.h; sourceTree = "<group>"; };
+		578E6C6D10B30CB000075908 /* ToBeImplemented.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToBeImplemented.m; sourceTree = "<group>"; };
+		579AD2D810ADE244000864C1 /* SPLScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLScene.h; sourceTree = "<group>"; };
+		579AD2D910ADE244000864C1 /* SPLScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLScene.m; sourceTree = "<group>"; };
+		579AD2DD10ADECDF000864C1 /* Almeria FC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Almeria FC.png"; sourceTree = "<group>"; };
+		579AD2DE10ADECDF000864C1 /* Athletic Bilbao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Athletic Bilbao.png"; sourceTree = "<group>"; };
+		579AD2DF10ADECDF000864C1 /* Atlético Madrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Atlético Madrid.png"; sourceTree = "<group>"; };
+		579AD2E010ADECDF000864C1 /* Barcelona.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Barcelona.png; sourceTree = "<group>"; };
+		579AD2E110ADECDF000864C1 /* Deportivo La Coruña.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Deportivo La Coruña.png"; sourceTree = "<group>"; };
+		579AD2E210ADECDF000864C1 /* Espanyol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Espanyol.png; sourceTree = "<group>"; };
+		579AD2E310ADECDF000864C1 /* Getafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Getafe.png; sourceTree = "<group>"; };
+		579AD2E410ADECDF000864C1 /* Malaga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Malaga.png; sourceTree = "<group>"; };
+		579AD2E510ADECDF000864C1 /* Mallorca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mallorca.png; sourceTree = "<group>"; };
+		579AD2E610ADECDF000864C1 /* Osasuna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Osasuna.png; sourceTree = "<group>"; };
+		579AD2E710ADECDF000864C1 /* Racing Santander.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Racing Santander.png"; sourceTree = "<group>"; };
+		579AD2E810ADECDF000864C1 /* Real Madrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Real Madrid.png"; sourceTree = "<group>"; };
+		579AD2E910ADECDF000864C1 /* Real Zaragoza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Real Zaragoza.png"; sourceTree = "<group>"; };
+		579AD2EA10ADECDF000864C1 /* Sevilla FC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sevilla FC.png"; sourceTree = "<group>"; };
+		579AD2EB10ADECDF000864C1 /* Sporting Gijon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sporting Gijon.png"; sourceTree = "<group>"; };
+		579AD2EC10ADECDF000864C1 /* Tenerife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tenerife.png; sourceTree = "<group>"; };
+		579AD2ED10ADECDF000864C1 /* Valencia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Valencia.png; sourceTree = "<group>"; };
+		579AD2EE10ADECDF000864C1 /* Valladolid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Valladolid.png; sourceTree = "<group>"; };
+		579AD2EF10ADECDF000864C1 /* Villarreal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Villarreal.png; sourceTree = "<group>"; };
+		579AD2F010ADECDF000864C1 /* Xerez.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xerez.png; sourceTree = "<group>"; };
+		579DE26B10AE3B1F00FDB543 /* SetupTeamScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupTeamScene.h; sourceTree = "<group>"; };
+		579DE26C10AE3B1F00FDB543 /* SetupTeamScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupTeamScene.m; sourceTree = "<group>"; };
+		579DE28410AE403F00FDB543 /* SoccerField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SoccerField.png; sourceTree = "<group>"; };
+		579DE29B10AE459700FDB543 /* Field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Field.png; sourceTree = "<group>"; };
+		579FFB8F10AE518C001E7DF5 /* Player1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player1.png; sourceTree = "<group>"; };
+		57A2B4A710AA526700DC6B40 /* SettingsScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsScene.h; sourceTree = "<group>"; };
+		57A2B4A810AA526700DC6B40 /* SettingsScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsScene.m; sourceTree = "<group>"; };
+		57A2B4AB10AA52AA00DC6B40 /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
+		57A2B4AC10AA52AA00DC6B40 /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScene.m; sourceTree = "<group>"; };
+		57A2B4AF10AA52EF00DC6B40 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		57A2B4B010AA52EF00DC6B40 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		57A2B4B310AA531800DC6B40 /* AbstractScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractScene.h; sourceTree = "<group>"; };
+		57A2B4B410AA531800DC6B40 /* AbstractScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractScene.m; sourceTree = "<group>"; };
+		57A2B4B710AA537600DC6B40 /* EventTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTimer.h; sourceTree = "<group>"; };
+		57A2B4B810AA537600DC6B40 /* EventTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTimer.m; sourceTree = "<group>"; };
+		57A2B4F810AA550800DC6B40 /* AbstractControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractControl.h; sourceTree = "<group>"; };
+		57A2B4F910AA550800DC6B40 /* AbstractControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractControl.m; sourceTree = "<group>"; };
+		57A2B4FB10AA550800DC6B40 /* MenuControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuControl.h; sourceTree = "<group>"; };
+		57A2B4FC10AA550800DC6B40 /* MenuControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuControl.m; sourceTree = "<group>"; };
+		57A2B50010AA554F00DC6B40 /* AbstractEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractEntity.h; sourceTree = "<group>"; };
+		57A2B50110AA554F00DC6B40 /* AbstractEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractEntity.m; sourceTree = "<group>"; };
+		57A2B50310AA554F00DC6B40 /* AlienTailWagger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlienTailWagger.h; sourceTree = "<group>"; };
+		57A2B50410AA554F00DC6B40 /* AlienTailWagger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlienTailWagger.m; sourceTree = "<group>"; };
+		57A2B50610AA554F00DC6B40 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		57A2B50710AA554F00DC6B40 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		57A2B50910AA554F00DC6B40 /* Ghost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ghost.h; sourceTree = "<group>"; };
+		57A2B50A10AA554F00DC6B40 /* Ghost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ghost.m; sourceTree = "<group>"; };
+		57A2B51010AA55D600DC6B40 /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		57A2B51110AA55D600DC6B40 /* Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation.m; sourceTree = "<group>"; };
+		57A2B51210AA55D600DC6B40 /* Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Frame.h; sourceTree = "<group>"; };
+		57A2B51310AA55D600DC6B40 /* Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Frame.m; sourceTree = "<group>"; };
+		57A2B51510AA55D600DC6B40 /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture2D.h; sourceTree = "<group>"; };
+		57A2B51610AA55D600DC6B40 /* Texture2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2D.m; sourceTree = "<group>"; };
+		57A2B51810AA55D600DC6B40 /* BezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierCurve.h; sourceTree = "<group>"; };
+		57A2B51910AA55D600DC6B40 /* BezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierCurve.m; sourceTree = "<group>"; };
+		57A2B51B10AA55D600DC6B40 /* ParticleEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleEmitter.h; sourceTree = "<group>"; };
+		57A2B51C10AA55D600DC6B40 /* ParticleEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleEmitter.m; sourceTree = "<group>"; };
+		57A2B51E10AA55D600DC6B40 /* Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Layer.h; sourceTree = "<group>"; };
+		57A2B51F10AA55D600DC6B40 /* Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Layer.m; sourceTree = "<group>"; };
+		57A2B52010AA55D600DC6B40 /* TileSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileSet.h; sourceTree = "<group>"; };
+		57A2B52110AA55D600DC6B40 /* TileSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileSet.m; sourceTree = "<group>"; };
+		57A2B52510AA55D600DC6B40 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		57A2B52610AA55D600DC6B40 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		57A2B52810AA55D600DC6B40 /* SpriteSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteSheet.h; sourceTree = "<group>"; };
+		57A2B52910AA55D600DC6B40 /* SpriteSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteSheet.m; sourceTree = "<group>"; };
+		57A2B52B10AA55D600DC6B40 /* AngelCodeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngelCodeFont.h; sourceTree = "<group>"; };
+		57A2B52C10AA55D600DC6B40 /* AngelCodeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngelCodeFont.m; sourceTree = "<group>"; };
+		57A2B52D10AA55D600DC6B40 /* CharDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharDef.h; sourceTree = "<group>"; };
+		57A2B52E10AA55D600DC6B40 /* CharDef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharDef.m; sourceTree = "<group>"; };
+		57A2B53E10AA56F900DC6B40 /* MyOpenALSupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MyOpenALSupport.c; sourceTree = "<group>"; };
+		57A2B53F10AA56F900DC6B40 /* MyOpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenALSupport.h; sourceTree = "<group>"; };
+		57A2B54010AA56F900DC6B40 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		57A2B54110AA56F900DC6B40 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		57A2B54310AA56F900DC6B40 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		57A2B54510AA56F900DC6B40 /* Director.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Director.h; sourceTree = "<group>"; };
+		57A2B54610AA56F900DC6B40 /* Director.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
+		57A2B54810AA56F900DC6B40 /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
+		57A2B54910AA56F900DC6B40 /* ResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceManager.m; sourceTree = "<group>"; };
+		57A2B54F10AA575500DC6B40 /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		57A2B55010AA575500DC6B40 /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		57A2B55110AA575500DC6B40 /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		57A2B55210AA575500DC6B40 /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		57A2B55310AA575500DC6B40 /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		57A2B55410AA575500DC6B40 /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		57A2B55510AA575500DC6B40 /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		57A2B55610AA575500DC6B40 /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		57A2B55710AA575500DC6B40 /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		57A2B55810AA575500DC6B40 /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		57A2B55910AA575500DC6B40 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
+		57A2B55A10AA575500DC6B40 /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
+		57A2B56110AA578800DC6B40 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		57A2B56210AA578800DC6B40 /* Transforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transforms.h; sourceTree = "<group>"; };
+		57A2B56310AA578800DC6B40 /* Transforms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transforms.m; sourceTree = "<group>"; };
+		57A2B56610AA57B700DC6B40 /* AccelerometerSimulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerSimulation.h; sourceTree = "<group>"; };
+		57A2B56710AA57B700DC6B40 /* AccelerometerSimulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerSimulation.m; sourceTree = "<group>"; };
+		57A2B56910AA57EC00DC6B40 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		57A2B56B10AA57EC00DC6B40 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		57A2B56D10AA57EC00DC6B40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57A2B56F10AA57EC00DC6B40 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		57A2B6CF10AA5B4000DC6B40 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		57B4921D10AB4182003C3B5E /* SoccerManagerGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoccerManagerGameController.h; sourceTree = "<group>"; };
+		57B4921E10AB4182003C3B5E /* SoccerManagerGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoccerManagerGameController.m; sourceTree = "<group>"; };
+		57B4925810AB43CE003C3B5E /* TiledMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledMap.m; sourceTree = "<group>"; };
+		57C62E7F10AE0438009A7353 /* Tottenham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tottenham.png; sourceTree = "<group>"; };
+		57C62EB110AE1587009A7353 /* BackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackArrow.png; sourceTree = "<group>"; };
+		57C62ED610AE1AFC009A7353 /* TeamScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamScene.h; sourceTree = "<group>"; };
+		57C62ED710AE1AFC009A7353 /* TeamScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamScene.m; sourceTree = "<group>"; };
+		57C62F3710AE2ED4009A7353 /* Liverpool-Big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Liverpool-Big.png"; sourceTree = "<group>"; };
+		57C62F6110AE3470009A7353 /* Selection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Selection.png; sourceTree = "<group>"; };
+		57C62F6B10AE35B3009A7353 /* Selection-test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Selection-test.png"; sourceTree = "<group>"; };
+		57CA5EB110B263E400C6DF0A /* GameBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBackground.png; sourceTree = "<group>"; };
+		57CCA94F10AC7F64008AAA3E /* epl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = epl.png; sourceTree = "<group>"; };
+		57CE4A9F10AC820A00EF01B2 /* spl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spl.png; sourceTree = "<group>"; };
+		57CE4B6310AC890900EF01B2 /* soccer ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "soccer ball.jpg"; sourceTree = "<group>"; };
+		57CE4BFC10AC913F00EF01B2 /* manager.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = manager.jpg; sourceTree = "<group>"; };
+		57CE4C2310AC92C200EF01B2 /* EPLScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLScene.h; sourceTree = "<group>"; };
+		57CE4C2410AC92C200EF01B2 /* EPLScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLScene.m; sourceTree = "<group>"; };
+		57D2106910AD157900320B9A /* Arsenal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arsenal.png; sourceTree = "<group>"; };
+		57D2106A10AD157900320B9A /* Aston Villa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aston Villa.png"; sourceTree = "<group>"; };
+		57D2106B10AD157900320B9A /* Blackburn Rovers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blackburn Rovers.png"; sourceTree = "<group>"; };
+		57D2106C10AD157900320B9A /* Bolton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bolton.png; sourceTree = "<group>"; };
+		57D2106D10AD157900320B9A /* Chelsea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chelsea.png; sourceTree = "<group>"; };
+		57D2106E10AD157900320B9A /* Everton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Everton.png; sourceTree = "<group>"; };
+		57D2106F10AD157900320B9A /* Fulham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fulham.png; sourceTree = "<group>"; };
+		57D2107010AD157900320B9A /* Hull City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hull City.png"; sourceTree = "<group>"; };
+		57D2107110AD157900320B9A /* Liverpool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Liverpool.png; sourceTree = "<group>"; };
+		57D2107210AD157900320B9A /* Manchester City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Manchester City.png"; sourceTree = "<group>"; };
+		57D2107310AD157900320B9A /* Manchester United.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Manchester United.png"; sourceTree = "<group>"; };
+		57D2107510AD157900320B9A /* Portsmouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portsmouth.png; sourceTree = "<group>"; };
+		57D2107710AD157900320B9A /* West Ham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "West Ham.png"; sourceTree = "<group>"; };
+		57DFCCCE10AD20460036CE79 /* Birmingham City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Birmingham City.png"; sourceTree = "<group>"; };
+		57DFCCCF10AD20460036CE79 /* Burnley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Burnley.png; sourceTree = "<group>"; };
+		57DFCCD010AD20460036CE79 /* Stoke City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stoke City.png"; sourceTree = "<group>"; };
+		57DFCCD110AD20460036CE79 /* Sunderland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sunderland.png; sourceTree = "<group>"; };
+		57DFCCD210AD20460036CE79 /* Wigan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wigan.png; sourceTree = "<group>"; };
+		57DFCCD310AD20460036CE79 /* Wolverhampton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wolverhampton.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SoccerManager-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SoccerManager-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
+				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
+				57A2B56A10AA57EC00DC6B40 /* AVFoundation.framework in Frameworks */,
+				57A2B56C10AA57EC00DC6B40 /* CoreAudio.framework in Frameworks */,
+				57A2B56E10AA57EC00DC6B40 /* CoreGraphics.framework in Frameworks */,
+				57A2B57010AA57EC00DC6B40 /* OpenAL.framework in Frameworks */,
+				57A2B6D010AA5B4000DC6B40 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B4A110AA516B00DC6B40 /* GameController */,
+				57A2B49F10AA515500DC6B40 /* AppDelegate */,
+				57A2B49E10AA514D00DC6B40 /* EAGLView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SoccerManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B56510AA57A300DC6B40 /* AccelerometerSimulation */,
+				57A2B56010AA577A00DC6B40 /* Common */,
+				57A2B54E10AA574600DC6B40 /* DDXml */,
+				57A2B53C10AA56EB00DC6B40 /* SingeltonManagers */,
+				57A2B53B10AA55D900DC6B40 /* Engine */,
+				57A2B4F410AA54E500DC6B40 /* Entities */,
+				57A2B4BA10AA53A000DC6B40 /* Game Art & Sound */,
+				57A2B4B610AA536A00DC6B40 /* Schedular */,
+				57A2B4A510AA523800DC6B40 /* Scene */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SoccerManager_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* SoccerManager-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B6CF10AA5B4000DC6B40 /* AudioToolbox.framework */,
+				57A2B56910AA57EC00DC6B40 /* AVFoundation.framework */,
+				57A2B56B10AA57EC00DC6B40 /* CoreAudio.framework */,
+				57A2B56D10AA57EC00DC6B40 /* CoreGraphics.framework */,
+				57A2B56F10AA57EC00DC6B40 /* OpenAL.framework */,
+				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
+				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		576B62DA10B200BA00F7227C /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				57C62F3710AE2ED4009A7353 /* Liverpool-Big.png */,
+				57C62E7F10AE0438009A7353 /* Tottenham.png */,
+				57DFCCCE10AD20460036CE79 /* Birmingham City.png */,
+				57DFCCCF10AD20460036CE79 /* Burnley.png */,
+				57DFCCD010AD20460036CE79 /* Stoke City.png */,
+				57DFCCD110AD20460036CE79 /* Sunderland.png */,
+				57DFCCD210AD20460036CE79 /* Wigan.png */,
+				57DFCCD310AD20460036CE79 /* Wolverhampton.png */,
+				57D2106910AD157900320B9A /* Arsenal.png */,
+				57D2106A10AD157900320B9A /* Aston Villa.png */,
+				57D2106B10AD157900320B9A /* Blackburn Rovers.png */,
+				57D2106C10AD157900320B9A /* Bolton.png */,
+				57D2106D10AD157900320B9A /* Chelsea.png */,
+				57D2106E10AD157900320B9A /* Everton.png */,
+				57D2106F10AD157900320B9A /* Fulham.png */,
+				57D2107010AD157900320B9A /* Hull City.png */,
+				57D2107110AD157900320B9A /* Liverpool.png */,
+				57D2107210AD157900320B9A /* Manchester City.png */,
+				57D2107310AD157900320B9A /* Manchester United.png */,
+				57D2107510AD157900320B9A /* Portsmouth.png */,
+				57D2107710AD157900320B9A /* West Ham.png */,
+			);
+			name = Teams;
+			sourceTree = "<group>";
+		};
+		576B62DB10B200C900F7227C /* Liverpool */ = {
+			isa = PBXGroup;
+			children = (
+				576B630110B20B9100F7227C /* Kuyt-1.png */,
+				576B62EB10B20B5900F7227C /* Agger-1.png */,
+				576B62EC10B20B5900F7227C /* Aquilani-1.png */,
+				576B62ED10B20B5900F7227C /* Benayoun.png */,
+				576B62EE10B20B5900F7227C /* Carragher-1.png */,
+				576B62EF10B20B5900F7227C /* Gerrard.png */,
+				576B62F010B20B5900F7227C /* Insua-1.png */,
+				576B62F110B20B5900F7227C /* Johnson-1.png */,
+				576B62F310B20B5900F7227C /* Mascherano-1.png */,
+				576B62F410B20B5900F7227C /* Reina-1.png */,
+				576B62F510B20B5900F7227C /* Torres.png */,
+			);
+			name = Liverpool;
+			sourceTree = "<group>";
+		};
+		578A5B6A10ABC01E0022DC43 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				579AD36B10ADF490000864C1 /* EPL */,
+				579AD36A10ADF47D000864C1 /* SPL */,
+				579AD36C10ADF4A2000864C1 /* Other */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		578A5B8810ABC01E0022DC43 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				578E6C1410B307D500075908 /* What Gods Are These.mp3 */,
+				578A5B8910ABC01E0022DC43 /* explosion.caf */,
+				578A5B8A10ABC01E0022DC43 /* mylaser.wav */,
+				578A5B8B10ABC01E0022DC43 /* laser.caf */,
+				578A5B8C10ABC01E0022DC43 /* music.mp3 */,
+				578A5B8D10ABC01E0022DC43 /* photon.caf */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		578A5B8E10ABC01E0022DC43 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				578A5B8F10ABC01E0022DC43 /* Monospaced24.fnt */,
+				578A5B9010ABC01E0022DC43 /* Monospaced24.png */,
+				578A5B9110ABC01E0022DC43 /* GillSans16.fnt */,
+				578A5B9210ABC01E0022DC43 /* GillSans16.png */,
+				578A5B9310ABC01E0022DC43 /* test.fnt */,
+				578A5B9410ABC01E0022DC43 /* test.png */,
+				578A5B9510ABC01E0022DC43 /* kerning.fnt */,
+				578A5B9610ABC01E0022DC43 /* kerning.png */,
+				578A5B9710ABC01E0022DC43 /* font1.fnt */,
+				578A5B9810ABC01E0022DC43 /* font1.png */,
+				578A5B9910ABC01E0022DC43 /* test1.fnt */,
+				578A5B9A10ABC01E0022DC43 /* test1.png */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		578E6BAD10B2FB5900075908 /* ViewTeam */ = {
+			isa = PBXGroup;
+			children = (
+				578E6BAE10B2FB6600075908 /* ViewTeam.h */,
+				578E6BAF10B2FB6600075908 /* ViewTeam.m */,
+			);
+			name = ViewTeam;
+			sourceTree = "<group>";
+		};
+		578E6C6B10B30CA200075908 /* ToBeImplemented */ = {
+			isa = PBXGroup;
+			children = (
+				578E6C6C10B30CB000075908 /* ToBeImplemented.h */,
+				578E6C6D10B30CB000075908 /* ToBeImplemented.m */,
+			);
+			name = ToBeImplemented;
+			sourceTree = "<group>";
+		};
+		579AD2D610ADE236000864C1 /* SPLScene */ = {
+			isa = PBXGroup;
+			children = (
+				579AD2D810ADE244000864C1 /* SPLScene.h */,
+				579AD2D910ADE244000864C1 /* SPLScene.m */,
+			);
+			name = SPLScene;
+			sourceTree = "<group>";
+		};
+		579AD36A10ADF47D000864C1 /* SPL */ = {
+			isa = PBXGroup;
+			children = (
+				579AD2DD10ADECDF000864C1 /* Almeria FC.png */,
+				579AD2DE10ADECDF000864C1 /* Athletic Bilbao.png */,
+				579AD2DF10ADECDF000864C1 /* Atlético Madrid.png */,
+				579AD2E010ADECDF000864C1 /* Barcelona.png */,
+				579AD2E110ADECDF000864C1 /* Deportivo La Coruña.png */,
+				579AD2E210ADECDF000864C1 /* Espanyol.png */,
+				579AD2E310ADECDF000864C1 /* Getafe.png */,
+				579AD2E410ADECDF000864C1 /* Malaga.png */,
+				579AD2E510ADECDF000864C1 /* Mallorca.png */,
+				579AD2E610ADECDF000864C1 /* Osasuna.png */,
+				579AD2E710ADECDF000864C1 /* Racing Santander.png */,
+				579AD2E810ADECDF000864C1 /* Real Madrid.png */,
+				579AD2E910ADECDF000864C1 /* Real Zaragoza.png */,
+				579AD2EA10ADECDF000864C1 /* Sevilla FC.png */,
+				579AD2EB10ADECDF000864C1 /* Sporting Gijon.png */,
+				579AD2EC10ADECDF000864C1 /* Tenerife.png */,
+				579AD2ED10ADECDF000864C1 /* Valencia.png */,
+				579AD2EE10ADECDF000864C1 /* Valladolid.png */,
+				579AD2EF10ADECDF000864C1 /* Villarreal.png */,
+				579AD2F010ADECDF000864C1 /* Xerez.png */,
+			);
+			name = SPL;
+			sourceTree = "<group>";
+		};
+		579AD36B10ADF490000864C1 /* EPL */ = {
+			isa = PBXGroup;
+			children = (
+				576B62DB10B200C900F7227C /* Liverpool */,
+				576B62DA10B200BA00F7227C /* Teams */,
+			);
+			name = EPL;
+			sourceTree = "<group>";
+		};
+		579AD36C10ADF4A2000864C1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				57CA5EB110B263E400C6DF0A /* GameBackground.png */,
+				579FFB8F10AE518C001E7DF5 /* Player1.png */,
+				579DE29B10AE459700FDB543 /* Field.png */,
+				579DE28410AE403F00FDB543 /* SoccerField.png */,
+				57C62F6B10AE35B3009A7353 /* Selection-test.png */,
+				57C62F6110AE3470009A7353 /* Selection.png */,
+				57C62EB110AE1587009A7353 /* BackArrow.png */,
+				57CE4BFC10AC913F00EF01B2 /* manager.jpg */,
+				57CE4B6310AC890900EF01B2 /* soccer ball.jpg */,
+				57CE4A9F10AC820A00EF01B2 /* spl.png */,
+				57CCA94F10AC7F64008AAA3E /* epl.png */,
+				578A5B6B10ABC01E0022DC43 /* Default.png */,
+				578A5B6C10ABC01E0022DC43 /* ghost.gif */,
+				578A5B6D10ABC01E0022DC43 /* monk.gif */,
+				578A5B6E10ABC01E0022DC43 /* joypad.png */,
+				578A5B6F10ABC01E0022DC43 /* knight.gif */,
+				578A5B7010ABC01E0022DC43 /* knightdown.gif */,
+				578A5B7110ABC01E0022DC43 /* knightup.gif */,
+				578A5B7210ABC01E0022DC43 /* house.tmx */,
+				578A5B7310ABC01E0022DC43 /* house1.tmx */,
+				578A5B7410ABC01E0022DC43 /* pause.png */,
+				578A5B7510ABC01E0022DC43 /* paused.png */,
+				578A5B7610ABC01E0022DC43 /* TchCliff.png */,
+				578A5B7710ABC01E0022DC43 /* TechLava.png */,
+				578A5B7810ABC01E0022DC43 /* TechMsc1.png */,
+				578A5B7910ABC01E0022DC43 /* TechRoad.png */,
+				578A5B7A10ABC01E0022DC43 /* TechWater.png */,
+				578A5B7B10ABC01E0022DC43 /* techmap.tmx */,
+				578A5B7C10ABC01E0022DC43 /* laser.png */,
+				578A5B7D10ABC01E0022DC43 /* fire-button-1.png */,
+				578A5B7E10ABC01E0022DC43 /* quitgame.png */,
+				578A5B7F10ABC01E0022DC43 /* settings.png */,
+				578A5B8010ABC01E0022DC43 /* highscores.png */,
+				578A5B8110ABC01E0022DC43 /* newgame.png */,
+				578A5B8410ABC01E0022DC43 /* texture.png */,
+				578A5B8510ABC01E0022DC43 /* tiles.png */,
+				578A5B8610ABC01E0022DC43 /* spritesheet16.gif */,
+				578A5B8710ABC01E0022DC43 /* player.png */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		579DE26910AE3B0D00FDB543 /* SetupTeamScene */ = {
+			isa = PBXGroup;
+			children = (
+				579DE26B10AE3B1F00FDB543 /* SetupTeamScene.h */,
+				579DE26C10AE3B1F00FDB543 /* SetupTeamScene.m */,
+			);
+			name = SetupTeamScene;
+			sourceTree = "<group>";
+		};
+		57A2B49E10AA514D00DC6B40 /* EAGLView */ = {
+			isa = PBXGroup;
+			children = (
+				28FD14FC0DC6FC130079059D /* EAGLView.h */,
+				28FD14FD0DC6FC130079059D /* EAGLView.m */,
+			);
+			name = EAGLView;
+			sourceTree = "<group>";
+		};
+		57A2B49F10AA515500DC6B40 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* SoccerManagerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SoccerManagerAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		57A2B4A110AA516B00DC6B40 /* GameController */ = {
+			isa = PBXGroup;
+			children = (
+				57B4921D10AB4182003C3B5E /* SoccerManagerGameController.h */,
+				57B4921E10AB4182003C3B5E /* SoccerManagerGameController.m */,
+			);
+			name = GameController;
+			sourceTree = "<group>";
+		};
+		57A2B4A510AA523800DC6B40 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				578E6C6B10B30CA200075908 /* ToBeImplemented */,
+				578E6BAD10B2FB5900075908 /* ViewTeam */,
+				579DE26910AE3B0D00FDB543 /* SetupTeamScene */,
+				57C62E8C10AE08D2009A7353 /* TeamScene */,
+				579AD2D610ADE236000864C1 /* SPLScene */,
+				57CE4C2210AC929A00EF01B2 /* EPLScene */,
+				57A2B4B210AA530B00DC6B40 /* AbstractScene */,
+				57A2B4AE10AA52D800DC6B40 /* GameScene */,
+				57A2B4AA10AA529700DC6B40 /* MenuScene */,
+				57A2B4A610AA524C00DC6B40 /* SettingsScene */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		57A2B4A610AA524C00DC6B40 /* SettingsScene */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B4A710AA526700DC6B40 /* SettingsScene.h */,
+				57A2B4A810AA526700DC6B40 /* SettingsScene.m */,
+			);
+			name = SettingsScene;
+			sourceTree = "<group>";
+		};
+		57A2B4AA10AA529700DC6B40 /* MenuScene */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B4AB10AA52AA00DC6B40 /* MenuScene.h */,
+				57A2B4AC10AA52AA00DC6B40 /* MenuScene.m */,
+			);
+			name = MenuScene;
+			sourceTree = "<group>";
+		};
+		57A2B4AE10AA52D800DC6B40 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B4AF10AA52EF00DC6B40 /* GameScene.h */,
+				57A2B4B010AA52EF00DC6B40 /* GameScene.m */,
+			);
+			name = GameScene;
+			sourceTree = "<group>";
+		};
+		57A2B4B210AA530B00DC6B40 /* AbstractScene */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B4B310AA531800DC6B40 /* AbstractScene.h */,
+				57A2B4B410AA531800DC6B40 /* AbstractScene.m */,
+			);
+			name = AbstractScene;
+			sourceTree = "<group>";
+		};
+		57A2B4B610AA536A00DC6B40 /* Schedular */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B4B710AA537600DC6B40 /* EventTimer.h */,
+				57A2B4B810AA537600DC6B40 /* EventTimer.m */,
+			);
+			name = Schedular;
+			sourceTree = "<group>";
+		};
+		57A2B4BA10AA53A000DC6B40 /* Game Art & Sound */ = {
+			isa = PBXGroup;
+			children = (
+				578A5B8E10ABC01E0022DC43 /* Fonts */,
+				578A5B8810ABC01E0022DC43 /* Sounds */,
+				578A5B6A10ABC01E0022DC43 /* Images */,
+			);
+			name = "Game Art & Sound";
+			sourceTree = "<group>";
+		};
+		57A2B4F410AA54E500DC6B40 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B4F610AA54F600DC6B40 /* Controls */,
+				57A2B4F510AA54F300DC6B40 /* Actors */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		57A2B4F510AA54F300DC6B40 /* Actors */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B50810AA554F00DC6B40 /* Ghost */,
+				57A2B50510AA554F00DC6B40 /* Player */,
+				57A2B50210AA554F00DC6B40 /* AlienTainWagger */,
+				57A2B4FF10AA554F00DC6B40 /* AbstractEntity */,
+			);
+			name = Actors;
+			sourceTree = "<group>";
+		};
+		57A2B4F610AA54F600DC6B40 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B4FA10AA550800DC6B40 /* MenuControl */,
+				57A2B4F710AA550800DC6B40 /* AbstractControl */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		57A2B4F710AA550800DC6B40 /* AbstractControl */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B4F810AA550800DC6B40 /* AbstractControl.h */,
+				57A2B4F910AA550800DC6B40 /* AbstractControl.m */,
+			);
+			name = AbstractControl;
+			sourceTree = "<group>";
+		};
+		57A2B4FA10AA550800DC6B40 /* MenuControl */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B4FB10AA550800DC6B40 /* MenuControl.h */,
+				57A2B4FC10AA550800DC6B40 /* MenuControl.m */,
+			);
+			name = MenuControl;
+			sourceTree = "<group>";
+		};
+		57A2B4FF10AA554F00DC6B40 /* AbstractEntity */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B50010AA554F00DC6B40 /* AbstractEntity.h */,
+				57A2B50110AA554F00DC6B40 /* AbstractEntity.m */,
+			);
+			name = AbstractEntity;
+			sourceTree = "<group>";
+		};
+		57A2B50210AA554F00DC6B40 /* AlienTainWagger */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B50310AA554F00DC6B40 /* AlienTailWagger.h */,
+				57A2B50410AA554F00DC6B40 /* AlienTailWagger.m */,
+			);
+			name = AlienTainWagger;
+			sourceTree = "<group>";
+		};
+		57A2B50510AA554F00DC6B40 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B50610AA554F00DC6B40 /* Player.h */,
+				57A2B50710AA554F00DC6B40 /* Player.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		57A2B50810AA554F00DC6B40 /* Ghost */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B50910AA554F00DC6B40 /* Ghost.h */,
+				57A2B50A10AA554F00DC6B40 /* Ghost.m */,
+			);
+			name = Ghost;
+			sourceTree = "<group>";
+		};
+		57A2B50F10AA55D600DC6B40 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B51010AA55D600DC6B40 /* Animation.h */,
+				57A2B51110AA55D600DC6B40 /* Animation.m */,
+				57A2B51210AA55D600DC6B40 /* Frame.h */,
+				57A2B51310AA55D600DC6B40 /* Frame.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		57A2B51410AA55D600DC6B40 /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B51510AA55D600DC6B40 /* Texture2D.h */,
+				57A2B51610AA55D600DC6B40 /* Texture2D.m */,
+			);
+			name = Texture;
+			sourceTree = "<group>";
+		};
+		57A2B51710AA55D600DC6B40 /* BeizerCurve */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B51810AA55D600DC6B40 /* BezierCurve.h */,
+				57A2B51910AA55D600DC6B40 /* BezierCurve.m */,
+			);
+			name = BeizerCurve;
+			sourceTree = "<group>";
+		};
+		57A2B51A10AA55D600DC6B40 /* ParticleSystem */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B51B10AA55D600DC6B40 /* ParticleEmitter.h */,
+				57A2B51C10AA55D600DC6B40 /* ParticleEmitter.m */,
+			);
+			name = ParticleSystem;
+			sourceTree = "<group>";
+		};
+		57A2B51D10AA55D600DC6B40 /* TiledMap */ = {
+			isa = PBXGroup;
+			children = (
+				578A5B3010ABB3270022DC43 /* TiledMap.h */,
+				57B4925810AB43CE003C3B5E /* TiledMap.m */,
+				57A2B51E10AA55D600DC6B40 /* Layer.h */,
+				57A2B51F10AA55D600DC6B40 /* Layer.m */,
+				57A2B52010AA55D600DC6B40 /* TileSet.h */,
+				57A2B52110AA55D600DC6B40 /* TileSet.m */,
+			);
+			name = TiledMap;
+			sourceTree = "<group>";
+		};
+		57A2B52410AA55D600DC6B40 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B52510AA55D600DC6B40 /* Image.h */,
+				57A2B52610AA55D600DC6B40 /* Image.m */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		57A2B52710AA55D600DC6B40 /* SpriteSheet */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B52810AA55D600DC6B40 /* SpriteSheet.h */,
+				57A2B52910AA55D600DC6B40 /* SpriteSheet.m */,
+			);
+			name = SpriteSheet;
+			sourceTree = "<group>";
+		};
+		57A2B52A10AA55D600DC6B40 /* AngelCodeFont */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B52B10AA55D600DC6B40 /* AngelCodeFont.h */,
+				57A2B52C10AA55D600DC6B40 /* AngelCodeFont.m */,
+				57A2B52D10AA55D600DC6B40 /* CharDef.h */,
+				57A2B52E10AA55D600DC6B40 /* CharDef.m */,
+			);
+			name = AngelCodeFont;
+			sourceTree = "<group>";
+		};
+		57A2B53B10AA55D900DC6B40 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B52A10AA55D600DC6B40 /* AngelCodeFont */,
+				57A2B52710AA55D600DC6B40 /* SpriteSheet */,
+				57A2B52410AA55D600DC6B40 /* Image */,
+				57A2B51D10AA55D600DC6B40 /* TiledMap */,
+				57A2B51A10AA55D600DC6B40 /* ParticleSystem */,
+				57A2B51710AA55D600DC6B40 /* BeizerCurve */,
+				57A2B51410AA55D600DC6B40 /* Texture */,
+				57A2B50F10AA55D600DC6B40 /* Animation */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		57A2B53C10AA56EB00DC6B40 /* SingeltonManagers */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B54710AA56F900DC6B40 /* ResourceManager */,
+				57A2B54410AA56F900DC6B40 /* Director */,
+				57A2B54210AA56F900DC6B40 /* SynthesizeSingelton */,
+				57A2B53D10AA56F900DC6B40 /* SoundManager */,
+			);
+			name = SingeltonManagers;
+			sourceTree = "<group>";
+		};
+		57A2B53D10AA56F900DC6B40 /* SoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B53E10AA56F900DC6B40 /* MyOpenALSupport.c */,
+				57A2B53F10AA56F900DC6B40 /* MyOpenALSupport.h */,
+				57A2B54010AA56F900DC6B40 /* SoundManager.h */,
+				57A2B54110AA56F900DC6B40 /* SoundManager.m */,
+			);
+			name = SoundManager;
+			sourceTree = "<group>";
+		};
+		57A2B54210AA56F900DC6B40 /* SynthesizeSingelton */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B54310AA56F900DC6B40 /* SynthesizeSingleton.h */,
+			);
+			name = SynthesizeSingelton;
+			sourceTree = "<group>";
+		};
+		57A2B54410AA56F900DC6B40 /* Director */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B54510AA56F900DC6B40 /* Director.h */,
+				57A2B54610AA56F900DC6B40 /* Director.m */,
+			);
+			name = Director;
+			sourceTree = "<group>";
+		};
+		57A2B54710AA56F900DC6B40 /* ResourceManager */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B54810AA56F900DC6B40 /* ResourceManager.h */,
+				57A2B54910AA56F900DC6B40 /* ResourceManager.m */,
+			);
+			name = ResourceManager;
+			sourceTree = "<group>";
+		};
+		57A2B54E10AA574600DC6B40 /* DDXml */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B54F10AA575500DC6B40 /* DDXML.h */,
+				57A2B55010AA575500DC6B40 /* DDXMLDocument.h */,
+				57A2B55110AA575500DC6B40 /* DDXMLDocument.m */,
+				57A2B55210AA575500DC6B40 /* DDXMLElement.h */,
+				57A2B55310AA575500DC6B40 /* DDXMLElement.m */,
+				57A2B55410AA575500DC6B40 /* DDXMLElementAdditions.h */,
+				57A2B55510AA575500DC6B40 /* DDXMLElementAdditions.m */,
+				57A2B55610AA575500DC6B40 /* DDXMLNode.h */,
+				57A2B55710AA575500DC6B40 /* DDXMLNode.m */,
+				57A2B55810AA575500DC6B40 /* DDXMLPrivate.h */,
+				57A2B55910AA575500DC6B40 /* NSStringAdditions.h */,
+				57A2B55A10AA575500DC6B40 /* NSStringAdditions.m */,
+			);
+			name = DDXml;
+			sourceTree = "<group>";
+		};
+		57A2B56010AA577A00DC6B40 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B56110AA578800DC6B40 /* Common.h */,
+				57A2B56210AA578800DC6B40 /* Transforms.h */,
+				57A2B56310AA578800DC6B40 /* Transforms.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		57A2B56510AA57A300DC6B40 /* AccelerometerSimulation */ = {
+			isa = PBXGroup;
+			children = (
+				57A2B56610AA57B700DC6B40 /* AccelerometerSimulation.h */,
+				57A2B56710AA57B700DC6B40 /* AccelerometerSimulation.m */,
+			);
+			name = AccelerometerSimulation;
+			sourceTree = "<group>";
+		};
+		57C62E8C10AE08D2009A7353 /* TeamScene */ = {
+			isa = PBXGroup;
+			children = (
+				57C62ED610AE1AFC009A7353 /* TeamScene.h */,
+				57C62ED710AE1AFC009A7353 /* TeamScene.m */,
+			);
+			name = TeamScene;
+			sourceTree = "<group>";
+		};
+		57CE4C2210AC929A00EF01B2 /* EPLScene */ = {
+			isa = PBXGroup;
+			children = (
+				57CE4C2310AC92C200EF01B2 /* EPLScene.h */,
+				57CE4C2410AC92C200EF01B2 /* EPLScene.m */,
+			);
+			name = EPLScene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SoccerManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SoccerManager" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoccerManager;
+			productName = SoccerManager;
+			productReference = 1D6058910D05DD3D006BFB54 /* SoccerManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SoccerManager" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SoccerManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578A5B9B10ABC01E0022DC43 /* Default.png in Resources */,
+				578A5B9C10ABC01E0022DC43 /* ghost.gif in Resources */,
+				578A5B9D10ABC01E0022DC43 /* monk.gif in Resources */,
+				578A5B9E10ABC01E0022DC43 /* joypad.png in Resources */,
+				578A5B9F10ABC01E0022DC43 /* knight.gif in Resources */,
+				578A5BA010ABC01E0022DC43 /* knightdown.gif in Resources */,
+				578A5BA110ABC01E0022DC43 /* knightup.gif in Resources */,
+				578A5BA210ABC01E0022DC43 /* house.tmx in Resources */,
+				578A5BA310ABC01E0022DC43 /* house1.tmx in Resources */,
+				578A5BA410ABC01E0022DC43 /* pause.png in Resources */,
+				578A5BA510ABC01E0022DC43 /* paused.png in Resources */,
+				578A5BA610ABC01E0022DC43 /* TchCliff.png in Resources */,
+				578A5BA710ABC01E0022DC43 /* TechLava.png in Resources */,
+				578A5BA810ABC01E0022DC43 /* TechMsc1.png in Resources */,
+				578A5BA910ABC01E0022DC43 /* TechRoad.png in Resources */,
+				578A5BAA10ABC01E0022DC43 /* TechWater.png in Resources */,
+				578A5BAB10ABC01E0022DC43 /* techmap.tmx in Resources */,
+				578A5BAC10ABC01E0022DC43 /* laser.png in Resources */,
+				578A5BAD10ABC01E0022DC43 /* fire-button-1.png in Resources */,
+				578A5BAE10ABC01E0022DC43 /* quitgame.png in Resources */,
+				578A5BAF10ABC01E0022DC43 /* settings.png in Resources */,
+				578A5BB010ABC01E0022DC43 /* highscores.png in Resources */,
+				578A5BB110ABC01E0022DC43 /* newgame.png in Resources */,
+				578A5BB410ABC01E0022DC43 /* texture.png in Resources */,
+				578A5BB510ABC01E0022DC43 /* tiles.png in Resources */,
+				578A5BB610ABC01E0022DC43 /* spritesheet16.gif in Resources */,
+				578A5BB710ABC01E0022DC43 /* player.png in Resources */,
+				578A5BB810ABC01E0022DC43 /* explosion.caf in Resources */,
+				578A5BB910ABC01E0022DC43 /* mylaser.wav in Resources */,
+				578A5BBA10ABC01E0022DC43 /* laser.caf in Resources */,
+				578A5BBB10ABC01E0022DC43 /* music.mp3 in Resources */,
+				578A5BBC10ABC01E0022DC43 /* photon.caf in Resources */,
+				578A5BBD10ABC01E0022DC43 /* Monospaced24.fnt in Resources */,
+				578A5BBE10ABC01E0022DC43 /* Monospaced24.png in Resources */,
+				578A5BBF10ABC01E0022DC43 /* GillSans16.fnt in Resources */,
+				578A5BC010ABC01E0022DC43 /* GillSans16.png in Resources */,
+				578A5BC110ABC01E0022DC43 /* test.fnt in Resources */,
+				578A5BC210ABC01E0022DC43 /* test.png in Resources */,
+				578A5BC310ABC01E0022DC43 /* kerning.fnt in Resources */,
+				578A5BC410ABC01E0022DC43 /* kerning.png in Resources */,
+				578A5BC510ABC01E0022DC43 /* font1.fnt in Resources */,
+				578A5BC610ABC01E0022DC43 /* font1.png in Resources */,
+				578A5BC710ABC01E0022DC43 /* test1.fnt in Resources */,
+				578A5BC810ABC01E0022DC43 /* test1.png in Resources */,
+				57CCA95010AC7F64008AAA3E /* epl.png in Resources */,
+				57CE4AA010AC820A00EF01B2 /* spl.png in Resources */,
+				57CE4B6410AC890900EF01B2 /* soccer ball.jpg in Resources */,
+				57CE4BFD10AC913F00EF01B2 /* manager.jpg in Resources */,
+				57D2107810AD157900320B9A /* Arsenal.png in Resources */,
+				57D2107910AD157900320B9A /* Aston Villa.png in Resources */,
+				57D2107A10AD157900320B9A /* Blackburn Rovers.png in Resources */,
+				57D2107B10AD157900320B9A /* Bolton.png in Resources */,
+				57D2107C10AD157900320B9A /* Chelsea.png in Resources */,
+				57D2107D10AD157900320B9A /* Everton.png in Resources */,
+				57D2107E10AD157900320B9A /* Fulham.png in Resources */,
+				57D2107F10AD157900320B9A /* Hull City.png in Resources */,
+				57D2108010AD157900320B9A /* Liverpool.png in Resources */,
+				57D2108110AD157900320B9A /* Manchester City.png in Resources */,
+				57D2108210AD157900320B9A /* Manchester United.png in Resources */,
+				57D2108410AD157900320B9A /* Portsmouth.png in Resources */,
+				57D2108610AD157900320B9A /* West Ham.png in Resources */,
+				57DFCCD410AD20460036CE79 /* Birmingham City.png in Resources */,
+				57DFCCD510AD20460036CE79 /* Burnley.png in Resources */,
+				57DFCCD610AD20460036CE79 /* Stoke City.png in Resources */,
+				57DFCCD710AD20460036CE79 /* Sunderland.png in Resources */,
+				57DFCCD810AD20460036CE79 /* Wigan.png in Resources */,
+				57DFCCD910AD20460036CE79 /* Wolverhampton.png in Resources */,
+				579AD2F110ADECDF000864C1 /* Almeria FC.png in Resources */,
+				579AD2F210ADECDF000864C1 /* Athletic Bilbao.png in Resources */,
+				579AD2F310ADECDF000864C1 /* Atlético Madrid.png in Resources */,
+				579AD2F410ADECDF000864C1 /* Barcelona.png in Resources */,
+				579AD2F510ADECDF000864C1 /* Deportivo La Coruña.png in Resources */,
+				579AD2F610ADECDF000864C1 /* Espanyol.png in Resources */,
+				579AD2F710ADECDF000864C1 /* Getafe.png in Resources */,
+				579AD2F810ADECDF000864C1 /* Malaga.png in Resources */,
+				579AD2F910ADECDF000864C1 /* Mallorca.png in Resources */,
+				579AD2FA10ADECDF000864C1 /* Osasuna.png in Resources */,
+				579AD2FB10ADECDF000864C1 /* Racing Santander.png in Resources */,
+				579AD2FC10ADECDF000864C1 /* Real Madrid.png in Resources */,
+				579AD2FD10ADECDF000864C1 /* Real Zaragoza.png in Resources */,
+				579AD2FE10ADECDF000864C1 /* Sevilla FC.png in Resources */,
+				579AD2FF10ADECDF000864C1 /* Sporting Gijon.png in Resources */,
+				579AD30010ADECDF000864C1 /* Tenerife.png in Resources */,
+				579AD30110ADECDF000864C1 /* Valencia.png in Resources */,
+				579AD30210ADECDF000864C1 /* Valladolid.png in Resources */,
+				579AD30310ADECDF000864C1 /* Villarreal.png in Resources */,
+				579AD30410ADECDF000864C1 /* Xerez.png in Resources */,
+				57C62E8010AE0438009A7353 /* Tottenham.png in Resources */,
+				57C62EB210AE1587009A7353 /* BackArrow.png in Resources */,
+				57C62F3810AE2ED4009A7353 /* Liverpool-Big.png in Resources */,
+				57C62F6210AE3470009A7353 /* Selection.png in Resources */,
+				57C62F6C10AE35B3009A7353 /* Selection-test.png in Resources */,
+				579DE28510AE403F00FDB543 /* SoccerField.png in Resources */,
+				579DE29C10AE459700FDB543 /* Field.png in Resources */,
+				579FFB9010AE518C001E7DF5 /* Player1.png in Resources */,
+				576B62F610B20B5900F7227C /* Agger-1.png in Resources */,
+				576B62F710B20B5900F7227C /* Aquilani-1.png in Resources */,
+				576B62F810B20B5900F7227C /* Benayoun.png in Resources */,
+				576B62F910B20B5900F7227C /* Carragher-1.png in Resources */,
+				576B62FA10B20B5900F7227C /* Gerrard.png in Resources */,
+				576B62FB10B20B5900F7227C /* Insua-1.png in Resources */,
+				576B62FC10B20B5900F7227C /* Johnson-1.png in Resources */,
+				576B62FE10B20B5900F7227C /* Mascherano-1.png in Resources */,
+				576B62FF10B20B5900F7227C /* Reina-1.png in Resources */,
+				576B630010B20B5900F7227C /* Torres.png in Resources */,
+				576B630210B20B9100F7227C /* Kuyt-1.png in Resources */,
+				57CA5EB210B263E400C6DF0A /* GameBackground.png in Resources */,
+				578E6C1910B307D500075908 /* What Gods Are These.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SoccerManagerAppDelegate.m in Sources */,
+				28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */,
+				57A2B4A910AA526700DC6B40 /* SettingsScene.m in Sources */,
+				57A2B4AD10AA52AA00DC6B40 /* MenuScene.m in Sources */,
+				57A2B4B110AA52EF00DC6B40 /* GameScene.m in Sources */,
+				57A2B4B510AA531800DC6B40 /* AbstractScene.m in Sources */,
+				57A2B4B910AA537600DC6B40 /* EventTimer.m in Sources */,
+				57A2B4FD10AA550800DC6B40 /* AbstractControl.m in Sources */,
+				57A2B4FE10AA550800DC6B40 /* MenuControl.m in Sources */,
+				57A2B50B10AA554F00DC6B40 /* AbstractEntity.m in Sources */,
+				57A2B50C10AA554F00DC6B40 /* AlienTailWagger.m in Sources */,
+				57A2B50D10AA554F00DC6B40 /* Player.m in Sources */,
+				57A2B50E10AA554F00DC6B40 /* Ghost.m in Sources */,
+				57A2B52F10AA55D600DC6B40 /* Animation.m in Sources */,
+				57A2B53010AA55D600DC6B40 /* Frame.m in Sources */,
+				57A2B53110AA55D600DC6B40 /* Texture2D.m in Sources */,
+				57A2B53210AA55D600DC6B40 /* BezierCurve.m in Sources */,
+				57A2B53310AA55D600DC6B40 /* ParticleEmitter.m in Sources */,
+				57A2B53410AA55D600DC6B40 /* Layer.m in Sources */,
+				57A2B53510AA55D600DC6B40 /* TileSet.m in Sources */,
+				57A2B53710AA55D600DC6B40 /* Image.m in Sources */,
+				57A2B53810AA55D600DC6B40 /* SpriteSheet.m in Sources */,
+				57A2B53910AA55D600DC6B40 /* AngelCodeFont.m in Sources */,
+				57A2B53A10AA55D600DC6B40 /* CharDef.m in Sources */,
+				57A2B54A10AA56F900DC6B40 /* MyOpenALSupport.c in Sources */,
+				57A2B54B10AA56F900DC6B40 /* SoundManager.m in Sources */,
+				57A2B54C10AA56F900DC6B40 /* Director.m in Sources */,
+				57A2B54D10AA56F900DC6B40 /* ResourceManager.m in Sources */,
+				57A2B55B10AA575500DC6B40 /* DDXMLDocument.m in Sources */,
+				57A2B55C10AA575500DC6B40 /* DDXMLElement.m in Sources */,
+				57A2B55D10AA575500DC6B40 /* DDXMLElementAdditions.m in Sources */,
+				57A2B55E10AA575500DC6B40 /* DDXMLNode.m in Sources */,
+				57A2B55F10AA575500DC6B40 /* NSStringAdditions.m in Sources */,
+				57A2B56410AA578800DC6B40 /* Transforms.m in Sources */,
+				57A2B56810AA57B700DC6B40 /* AccelerometerSimulation.m in Sources */,
+				57B4921F10AB4182003C3B5E /* SoccerManagerGameController.m in Sources */,
+				57B4925910AB43CE003C3B5E /* TiledMap.m in Sources */,
+				57CE4C2510AC92C200EF01B2 /* EPLScene.m in Sources */,
+				579AD2DA10ADE244000864C1 /* SPLScene.m in Sources */,
+				57C62ED810AE1AFC009A7353 /* TeamScene.m in Sources */,
+				579DE26D10AE3B1F00FDB543 /* SetupTeamScene.m in Sources */,
+				578E6BB010B2FB6600075908 /* ViewTeam.m in Sources */,
+				578E6C6E10B30CB000075908 /* ToBeImplemented.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SoccerManager_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "SoccerManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = SoccerManager;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SoccerManager_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "SoccerManager-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = SoccerManager;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SoccerManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SoccerManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
